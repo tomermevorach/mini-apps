@@ -65,12 +65,12 @@ export default function WhatIsCode() {
 
       <div className="mt-12 flex flex-col sm:flex-row gap-3">
         <Button asChild variant="outline">
-          <Link href="/what-is-vibe-coding">
+          <Link href="/vibe-coding-bootcamp/what-is-vibe-coding">
             <ArrowLeft className="w-4 h-4" /> {t.common.back}
           </Link>
         </Button>
         <Button asChild size="lg">
-          <Link href="/what-is-vibe-coding/the-full-stack">
+          <Link href="/vibe-coding-bootcamp/what-is-vibe-coding/the-full-stack">
             {p.nextBtn} <ArrowRight className="w-4 h-4" />
           </Link>
         </Button>

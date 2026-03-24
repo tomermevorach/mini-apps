@@ -90,12 +90,12 @@ export default function ForkThisApp() {
 
       <div className="mt-12 flex flex-col sm:flex-row gap-3">
         <Button asChild variant="outline">
-          <Link href="/setup/coding-agent">
+          <Link href="/vibe-coding-bootcamp/setup/coding-agent">
             <ArrowLeft className="w-4 h-4" /> {t.common.back}
           </Link>
         </Button>
         <Button asChild size="lg">
-          <Link href="/go-deeper">
+          <Link href="/vibe-coding-bootcamp/go-deeper">
             {p.goDeeper} <ExternalLink className="w-4 h-4" />
           </Link>
         </Button>

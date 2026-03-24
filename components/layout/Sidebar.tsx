@@ -32,32 +32,32 @@ export function Sidebar({ onClose }: SidebarProps) {
     {
       title: t.sidebar.gettingStarted,
       items: [
-        { title: t.sidebar.whatIsVibeCoding, href: "/what-is-vibe-coding", icon: Zap },
-        { title: t.sidebar.whatIsCode, href: "/what-is-vibe-coding/what-is-code", icon: Code2 },
-        { title: t.sidebar.theFullStack, href: "/what-is-vibe-coding/the-full-stack", icon: Layers },
+        { title: t.sidebar.whatIsVibeCoding, href: "/vibe-coding-bootcamp/what-is-vibe-coding", icon: Zap },
+        { title: t.sidebar.whatIsCode, href: "/vibe-coding-bootcamp/what-is-vibe-coding/what-is-code", icon: Code2 },
+        { title: t.sidebar.theFullStack, href: "/vibe-coding-bootcamp/what-is-vibe-coding/the-full-stack", icon: Layers },
       ],
     },
     {
       title: t.sidebar.yourToolbox,
       items: [
-        { title: t.sidebar.aiCodingAgents, href: "/toolbox/ai-agents", icon: Bot },
-        { title: t.sidebar.sourceControl, href: "/toolbox/source-control", icon: GitBranch },
-        { title: t.sidebar.cloudHosting, href: "/toolbox/cloud-hosting", icon: Cloud },
+        { title: t.sidebar.aiCodingAgents, href: "/vibe-coding-bootcamp/toolbox/ai-agents", icon: Bot },
+        { title: t.sidebar.sourceControl, href: "/vibe-coding-bootcamp/toolbox/source-control", icon: GitBranch },
+        { title: t.sidebar.cloudHosting, href: "/vibe-coding-bootcamp/toolbox/cloud-hosting", icon: Cloud },
       ],
     },
     {
       title: t.sidebar.setupGuides,
       items: [
-        { title: t.sidebar.createGitHubAccount, href: "/setup/github", icon: Github },
-        { title: t.sidebar.createVercelAccount, href: "/setup/vercel", icon: Triangle },
-        { title: t.sidebar.installCodingAgent, href: "/setup/coding-agent", icon: Download },
+        { title: t.sidebar.createGitHubAccount, href: "/vibe-coding-bootcamp/setup/github", icon: Github },
+        { title: t.sidebar.createVercelAccount, href: "/vibe-coding-bootcamp/setup/vercel", icon: Triangle },
+        { title: t.sidebar.installCodingAgent, href: "/vibe-coding-bootcamp/setup/coding-agent", icon: Download },
       ],
     },
     {
       title: t.sidebar.putItTogether,
       items: [
-        { title: t.sidebar.forkThisApp, href: "/fork-this-app", icon: GitFork },
-        { title: t.sidebar.goDeeper, href: "/go-deeper", icon: BookOpen },
+        { title: t.sidebar.forkThisApp, href: "/vibe-coding-bootcamp/fork-this-app", icon: GitFork },
+        { title: t.sidebar.goDeeper, href: "/vibe-coding-bootcamp/go-deeper", icon: BookOpen },
       ],
     },
   ]
@@ -66,7 +66,7 @@ export function Sidebar({ onClose }: SidebarProps) {
     <div className="flex flex-col h-full bg-slate-900 text-slate-400 sidebar-scrollbar overflow-y-auto">
       {/* Logo */}
       <div className="flex items-center justify-between px-5 py-5 border-b border-slate-800">
-        <Link href="/" className="flex items-center gap-2" onClick={onClose}>
+        <Link href="/vibe-coding-bootcamp" className="flex items-center gap-2" onClick={onClose}>
           <div className="w-7 h-7 rounded-lg bg-violet-600 flex items-center justify-center">
             <Zap className="w-4 h-4 text-white" />
           </div>

@@ -6,9 +6,9 @@ import { ArrowRight, ArrowLeft } from "lucide-react"
 import { SetupChecklist } from "@/components/interactive/SetupChecklist"
 import { useLanguage } from "@/lib/i18n/LanguageContext"
 
-export default function SetupGitHub() {
+export default function SetupVercel() {
   const { t } = useLanguage()
-  const p = t.setupGithub
+  const p = t.setupVercel
 
   return (
     <div className="max-w-3xl mx-auto px-6 py-12">
@@ -25,16 +25,16 @@ export default function SetupGitHub() {
         <p>{p.beforeP}</p>
       </div>
 
-      <SetupChecklist storageKey="setup-github" steps={p.steps} />
+      <SetupChecklist storageKey="setup-vercel" steps={p.steps} />
 
       <div className="mt-12 flex flex-col sm:flex-row gap-3">
         <Button asChild variant="outline">
-          <Link href="/toolbox/cloud-hosting">
+          <Link href="/vibe-coding-bootcamp/setup/github">
             <ArrowLeft className="w-4 h-4" /> {t.common.back}
           </Link>
         </Button>
         <Button asChild size="lg">
-          <Link href="/setup/vercel">
+          <Link href="/vibe-coding-bootcamp/setup/coding-agent">
             {p.nextBtn} <ArrowRight className="w-4 h-4" />
           </Link>
         </Button>

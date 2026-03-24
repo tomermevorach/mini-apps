@@ -57,12 +57,12 @@ export default function SetupCodingAgent() {
 
       <div className="mt-12 flex flex-col sm:flex-row gap-3">
         <Button asChild variant="outline">
-          <Link href="/setup/vercel">
+          <Link href="/vibe-coding-bootcamp/setup/vercel">
             <ArrowLeft className="w-4 h-4" /> {t.common.back}
           </Link>
         </Button>
         <Button asChild size="lg">
-          <Link href="/fork-this-app">
+          <Link href="/vibe-coding-bootcamp/fork-this-app">
             {p.nextBtn} <ArrowRight className="w-4 h-4" />
           </Link>
         </Button>

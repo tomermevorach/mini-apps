@@ -57,7 +57,7 @@ export default function GoDeeper() {
 
       <div className="mt-12">
         <Button asChild variant="outline">
-          <Link href="/fork-this-app">
+          <Link href="/vibe-coding-bootcamp/fork-this-app">
             <ArrowLeft className="w-4 h-4" /> {p.backBtn}
           </Link>
         </Button>
