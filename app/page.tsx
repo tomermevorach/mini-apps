@@ -9,6 +9,13 @@ const apps = [
     emoji: "⚡",
     tags: ["Learning", "AI"],
   },
+  {
+    title: "מבצע גידול",
+    description: "פרוטוטייפ למסך ביצוע סוכן — מבצע פרסים עם מדידת גידול ביחס לשנה קודמת, כולל פוליסות חדשות, חידושים ומדרגות יעד.",
+    href: "/mivtza-gidol",
+    emoji: "📈",
+    tags: ["ביטוח", "פרוטוטייפ"],
+  },
 ]
 
 export default function Home() {
